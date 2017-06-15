@@ -9,6 +9,23 @@
 import UIKit
 
 class AddNewUserViewController: UIViewController {
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    
+    
+    @IBOutlet weak var userTextField: UITextField!
+    
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    
+    @IBAction func saveButton(_ sender: Any) {
+    }
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
