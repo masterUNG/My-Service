@@ -12,6 +12,11 @@
 		AEFA005D1EF25CF8009A3E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA005B1EF25CF8009A3E23 /* Main.storyboard */; };
 		AEFA005F1EF25CF8009A3E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */; };
 		AEFA00621EF25CF8009A3E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA00601EF25CF8009A3E23 /* LaunchScreen.storyboard */; };
+		AEFA006A1EF27DFC009A3E23 /* AddNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA00691EF27DFC009A3E23 /* AddNewUserViewController.swift */; };
+		AEFA006C1EF281E0009A3E23 /* snru_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEFA006B1EF281E0009A3E23 /* snru_bg.jpg */; };
+		AEFA00701EF28580009A3E23 /* ic_note_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFA006D1EF28580009A3E23 /* ic_note_add_2x.png */; };
+		AEFA00711EF28580009A3E23 /* ic_note_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFA006E1EF28580009A3E23 /* ic_note_add_3x.png */; };
+		AEFA00721EF28580009A3E23 /* ic_note_add.png in Resources */ = {isa = PBXBuildFile; fileRef = AEFA006F1EF28580009A3E23 /* ic_note_add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFA00611EF25CF8009A3E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFA00631EF25CF8009A3E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFA00691EF27DFC009A3E23 /* AddNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewUserViewController.swift; sourceTree = "<group>"; };
+		AEFA006B1EF281E0009A3E23 /* snru_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snru_bg.jpg; path = ../../../../Desktop/snru_bg.jpg; sourceTree = "<group>"; };
+		AEFA006D1EF28580009A3E23 /* ic_note_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_2x.png; path = ../../../../Desktop/ic_note_add_2x.png; sourceTree = "<group>"; };
+		AEFA006E1EF28580009A3E23 /* ic_note_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_3x.png; path = ../../../../Desktop/ic_note_add_3x.png; sourceTree = "<group>"; };
+		AEFA006F1EF28580009A3E23 /* ic_note_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add.png; path = ../../../../Desktop/ic_note_add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				AEFA00571EF25CF8009A3E23 /* AppDelegate.swift */,
+				AEFA006B1EF281E0009A3E23 /* snru_bg.jpg */,
+				AEFA006D1EF28580009A3E23 /* ic_note_add_2x.png */,
+				AEFA006E1EF28580009A3E23 /* ic_note_add_3x.png */,
+				AEFA006F1EF28580009A3E23 /* ic_note_add.png */,
 				AEFA00591EF25CF8009A3E23 /* ViewController.swift */,
+				AEFA00691EF27DFC009A3E23 /* AddNewUserViewController.swift */,
 				AEFA005B1EF25CF8009A3E23 /* Main.storyboard */,
 				AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */,
 				AEFA00601EF25CF8009A3E23 /* LaunchScreen.storyboard */,
@@ -123,8 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFA00721EF28580009A3E23 /* ic_note_add.png in Resources */,
 				AEFA00621EF25CF8009A3E23 /* LaunchScreen.storyboard in Resources */,
+				AEFA00701EF28580009A3E23 /* ic_note_add_2x.png in Resources */,
+				AEFA00711EF28580009A3E23 /* ic_note_add_3x.png in Resources */,
 				AEFA005F1EF25CF8009A3E23 /* Assets.xcassets in Resources */,
+				AEFA006C1EF281E0009A3E23 /* snru_bg.jpg in Resources */,
 				AEFA005D1EF25CF8009A3E23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFA005A1EF25CF8009A3E23 /* ViewController.swift in Sources */,
+				AEFA006A1EF27DFC009A3E23 /* AddNewUserViewController.swift in Sources */,
 				AEFA00581EF25CF8009A3E23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
