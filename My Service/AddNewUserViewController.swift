@@ -21,6 +21,7 @@ class AddNewUserViewController: UIViewController {
     
     
     
+    @IBOutlet weak var alertLabel: UILabel!
     
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -48,9 +49,14 @@ class AddNewUserViewController: UIViewController {
         if (intName == 0) || (intUser == 0) || (intPassword == 0) {
             //Have Space
             print("Have Space")
+            alertLabel.alpha = 1
         } else {
         
             print("No Space")
+            alertLabel.alpha = 0
+            let strMyURL = "http://androidthai.in.th/snru/addUserMaster.php?isAdd=true&Name=" + nameString! + "&User=" + userString! + "&Password=" + passwordString! + ""
+            print("strMyURL ==> \(strMyURL)")
+            
         
         }
 
