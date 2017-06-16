@@ -88,7 +88,7 @@ class AddNewUserViewController: UIViewController {
                     data, response, error in
         
                     if error != nil {
-                        print("Error ==> \(error)")
+                        print("Error ==> \(String(describing: error))")
                     }   else {
         
                         if let unwrappedData = data {
