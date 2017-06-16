@@ -83,11 +83,29 @@ class ViewController: UIViewController {
                             let strJSON = dataString as Any
                             print("strJSON ==> \(strJSON)")
                             
+//                            if strJSON != nil {
+//                                print("dataString not nil")
+//                            } else {
+//                                print("dataString nil")
+//                            }
+                            
                             let strKey = ","
                             if let myContentArray = dataString?.components(separatedBy: strKey) {
                                 
                                 print("myContentArray[2] ==> \(myContentArray[2])")
                                 print("myContentArray[3] ==> \(myContentArray[3])")
+                                
+                                //Check Password
+                                let myPassword = "\"Password\":\"" + self.strPassword! + "\"}]"
+                                if myPassword == myContentArray[3] {
+                                    //Password True
+                                    print("Password True")
+                                }   else {
+                                    //Password False
+                                    print("Password False")
+                                }
+                                
+                                
                             
                             }   // if
                             
