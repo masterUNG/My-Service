@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE23729D1EF3D27200522C35 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23729C1EF3D27200522C35 /* MapViewController.swift */; };
 		AEFA00581EF25CF8009A3E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA00571EF25CF8009A3E23 /* AppDelegate.swift */; };
 		AEFA005A1EF25CF8009A3E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA00591EF25CF8009A3E23 /* ViewController.swift */; };
 		AEFA005D1EF25CF8009A3E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA005B1EF25CF8009A3E23 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE23729C1EF3D27200522C35 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AEFA00541EF25CF8009A3E23 /* My Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFA00571EF25CF8009A3E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFA00591EF25CF8009A3E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				AEFA00591EF25CF8009A3E23 /* ViewController.swift */,
 				AEFA00691EF27DFC009A3E23 /* AddNewUserViewController.swift */,
 				AEFA005B1EF25CF8009A3E23 /* Main.storyboard */,
+				AE23729C1EF3D27200522C35 /* MapViewController.swift */,
 				AEFA005E1EF25CF8009A3E23 /* Assets.xcassets */,
 				AEFA00601EF25CF8009A3E23 /* LaunchScreen.storyboard */,
 				AEFA00631EF25CF8009A3E23 /* Info.plist */,
@@ -170,6 +173,7 @@
 				AEFA005A1EF25CF8009A3E23 /* ViewController.swift in Sources */,
 				AEFA006A1EF27DFC009A3E23 /* AddNewUserViewController.swift in Sources */,
 				AEFA00581EF25CF8009A3E23 /* AppDelegate.swift in Sources */,
+				AE23729D1EF3D27200522C35 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				AEFA00681EF25CF8009A3E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

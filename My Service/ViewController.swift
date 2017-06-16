@@ -100,6 +100,8 @@ class ViewController: UIViewController {
                                 if myPassword == myContentArray[3] {
                                     //Password True
                                     print("Password True")
+                                    self.moveMap()
+                                    
                                 }   else {
                                     //Password False
                                     print("Password False")
@@ -121,6 +123,10 @@ class ViewController: UIViewController {
         
         
     }   // readJSON
+    
+    func moveMap() -> Void {
+        //performSegue(withIdentifier: "GoToMap", sender: "")
+    }
     
     
 
